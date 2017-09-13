@@ -2,12 +2,12 @@ import java.util.Random;
 import java.util.Scanner;
 public class GameOddsEvens {
     public static void main(String[] args) {
-     /*   PickOddsEvens();
+        PickOddsEvens();
         PlayGame();
         WhoWon();
     }
 
-    public static String PickOddsEvens() {*/
+    public static String PickOddsEvens() {
         Scanner input = new Scanner(System.in);
         System.out.println("****************************************");
         System.out.println("Let’s play a game called “Odds and Evens");
@@ -21,11 +21,11 @@ public class GameOddsEvens {
             System.out.println(name + " has picked evens! The computer will be odds.");
         }
         System.out.println("****************************************");
-        /*
+        
     }
 
     public static int PlayGame() {
-        Scanner input = new Scanner(System.in);*/
+        Scanner input = new Scanner(System.in);
         System.out.println("-----------------------------------------");
         System.out.print("How many “fingers” do you put out?");
         int userNumber = input.nextInt();
@@ -41,10 +41,10 @@ public class GameOddsEvens {
             System.out.println(sum + "....is odd!");
         }
         System.out.println("-----------------------------------------");
-        /*
+        
     }
 
-    public static void WhoWon() {*/
+    public static void WhoWon() {
 
         if (sum % 2 == 0) {
             if (oe.equals("E")) {
